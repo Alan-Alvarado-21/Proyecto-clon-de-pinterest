@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbar-pinterest{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    height: 60px;
+    align-items: center;
+}
+#navbar-pinterest input{
+    padding: 10px 22px;
+}
+@media screen and (max-width:992px) {
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+}
+#inicio{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 18px;
+}
+.finder:hover{
+    background-color: rgb(98, 98, 98);
+}
+#tu-perfil img{
+    border-radius: 50px;
+}
+#content{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 15px;
+}
+.cards-image{
+    border-radius: 15px;
+    width: 230px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px
+}
+#cards-image{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+    width: 230px;
+    margin: 0px;
+    cursor: zoom-in;
+}
+
+/*
+.button-guardar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+/*
+.button-compartir{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    cursor: pointer;
+    border-radius: 18px;
+    padding: 2px 2px;
+}
+.button-pin {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 18px;
+    padding: 2px 2px;
+}
+*/
